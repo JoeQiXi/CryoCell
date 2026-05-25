@@ -1,7 +1,7 @@
 # Project Roadmap: Cold-Environment Battery Simulator
 
 ## Phase 1: The Static Model (Current Focus)
-- [ ] Define baseline battery parameters (Nominal Voltage, Capacity).
+- [x] Define baseline battery parameters (Nominal Voltage, Capacity).
 - [ ] Implement the Equivalent Circuit Model (ECM).
 - [ ] Calculate baseline internal resistance at 20°C.
 - [ ] Apply the Arrhenius equation to calculate resistance spikes at -20°C.
