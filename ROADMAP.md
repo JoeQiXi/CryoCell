@@ -2,9 +2,9 @@
 
 ## Phase 1: The Static Model (Current Focus)
 - [x] Define baseline battery parameters (Nominal Voltage, Capacity).
-- [ ] Implement the Equivalent Circuit Model (ECM).
-- [ ] Calculate baseline internal resistance at 20°C.
-- [ ] Apply the Arrhenius equation to calculate resistance spikes at -20°C.
+- [x] Implement the Equivalent Circuit Model (ECM).
+- [x] Calculate baseline internal resistance at 20°C.
+- [x] Apply the Arrhenius equation to calculate resistance spikes at -20°C.
 
 ## Phase 2: The Time Loop
 - [ ] Implement a discrete-time simulation loop (1-second intervals).
