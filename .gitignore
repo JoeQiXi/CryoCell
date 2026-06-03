@@ -1,0 +1,17 @@
+# ---- Build artifacts ----
+build/
+*.o
+*.out
+cryocell
+
+# ---- OS / editor junk ----
+.DS_Store
+.claude/
+*.swp
+.vscode/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/

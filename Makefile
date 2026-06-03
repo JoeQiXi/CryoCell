@@ -41,10 +41,16 @@ run: all
 	./$(TARGET)
 
 # ============================================================
+#  plot — run the simulator, then render the results figure
+# ============================================================
+plot: run
+	python3 scripts/plot_results.py
+
+# ============================================================
 #  clean — remove compiled artifacts
 # ============================================================
 clean:
 	rm -rf $(BUILD_DIR)/*.o $(TARGET)
 	@echo "Cleaned build artifacts."
 
-.PHONY: all run clean
+.PHONY: all run plot clean

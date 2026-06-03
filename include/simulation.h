@@ -14,4 +14,3 @@ struct SimConfig {
 
 // Runs both modes (no_heating and self_heating) and writes results to CSV
 void run_simulation(const BatteryConfig& battery, const SimConfig& sim);
-
