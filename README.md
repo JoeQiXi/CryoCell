@@ -13,4 +13,4 @@ Language: Python, C++, MATLAB
 Physics Modeled: Arrhenius equation for internal resistance, Joule heating, and state-of-charge (SOC) Coulomb counting.
 
 ## Current Status
-[Note: Update this as you go!] Currently developing the base equivalent circuit model to map internal resistance against temperature inputs.
+Currently developing the base equivalent circuit model to map internal resistance against temperature inputs.
